@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #7cdaef;
+  font-family: Play;
+  color: #ffffff;
+  margin-top: 104px;
+}
+.container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 176px;
+  padding-top: 99px;
+  background: rgba(14, 73, 126, 0.7);
+}
+.blue {
+  position: relative;
+  width: 743px;
+  margin: auto;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 37px;
+  margin-top: 36px;
+  margin-bottom: 51px;
+}
+.blue p {
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.pictures {
+  margin-right: 10px;
+}
+.cloud1 {
+  position: absolute;
+  top: -58px;
+  right: -150px;
+  z-index: 1;
+}
+.cloud2 {
+  position: absolute;
+  left: -205px;
+  top: 179px;
+  z-index: -1;
+}
+.cloud3 {
+  position: absolute;
+  right: -206px;
+  top: 450px;
+  z-index: -2;
+}
+.grass {
+  width: 100%;
+  height: 132px;
+  height: 132px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(/images/grass.png);
+  background-repeat: repeat;
+}
